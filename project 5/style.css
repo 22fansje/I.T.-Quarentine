@@ -1,0 +1,110 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 10px;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff");
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+a{
+    color:#a66 ;
+}
+
+a:hover {
+    color: rgb(87, 37, 37);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(87, 37, 37);
+}
+
+a:focus {
+    color: #a66;
+    text-decoration: none;
+}
+
+li {
+    line-height: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.mynav {
+    color: #a66;
+    list-style-type: none;
+
+}
+
+ul.vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
